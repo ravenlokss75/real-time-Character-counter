@@ -1,36 +1,36 @@
 body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
+    margin: 0;/*removes margin*/
+    display: flex;/* makes things moveable*/
+    justify-content: center;/*moves content to the top center*/
+    height: 100vh;/*gives the height of the page*/
+    align-items: center;/*moves content down the page*/
     background-color: blueviolet;
     font-family: cursive;
 }
 .container{
     background-color: violet;
-    width: 400px;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    width: 400px;/*creates the box around the content*/
+    padding: 20px;/*moves content over to give space between box and content*/
+    margin: 5px;/*adds space to place border and box-shadow*/
+    border-radius: 10px;/*adds roundness to courners of box*/
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);/*creates a shadow around box to make it look like it stands out*/
 }
 
 .textarea{
-    resize: none;
-    width: 100%;
-    height: 100px;
+    resize: none;/*done to create own style*/
+    width: 100%;/*makes content area longer*/
+    height: 100px;/*makes content area taller */
     font-size: 18px;
     font-family: sans-serif;
-    padding: 10px;
-    box-sizing: border-box;
+    padding: 10px;/*gives space between text and border*/
+    box-sizing: border-box;/*fixes the overflow of the text box to fit into the contaner*/
     border: solid 2px darkgray;
 }
 
 .counter-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 5px;
+    display: flex;/*places words on same line*/
+    justify-content: space-between;/*places a space between words*/
+    padding: 0 5px;/*moves words to be under the text box*/
 }
 
 .counter-container p{
